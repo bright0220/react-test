@@ -10,9 +10,9 @@ const App = () => {
             <div className="grid grid-cols-2 gap-10 items-center">
               <div className="col-span-2 lg:col-span-1">
                 <div className="w-full flex flex-wrap gap-10 lg:gap-8">
-                  <p className="w-full text-4xl xl:text-5xl font-light text-center lg:text-left text-[#38454a]">
+                  <h2 className="w-full text-4xl xl:text-5xl font-light text-center lg:text-left text-[#38454a]">
                     Surge Protection Plans
-                  </p>
+                  </h2>
                   <p className="w-full text-[18px] text-start text-[#38454a]">
                     When bad weather threatens your electronics and appliances.
                     <br />
@@ -35,21 +35,21 @@ const App = () => {
       </div>
       <section className="w-full flex justify-center mt-[170px] lg:mt-8 pb-10 lg:pb-2">
         <div className="w-full lg:max-w-[900px] xl:max-w-[1100px] 2xl:max-w-[1440px] flex flex-wrap gap-8 justify-between px-4  lg:py-4 text-[#005876]">
-          <div className="text-4xl lg:text-5xl font-light text-center w-full">
+          <h2 className="text-4xl lg:text-5xl font-light text-center w-full">
             How does a Surge Protection Plan work?
             <p className="text-[16px] text-[#38454a] mt-4">
               You'll receive up to $2,000 of annual conerage for elgible
               electronic devices and kitchen appliances in case of a damaging
               power surge.
             </p>
-          </div>
+          </h2>
           <div className="w-full flex flex-wrap gap-8">
             <div className="w-full lg:flex justify-between">
               <div className="w-full lg:w-[480px]">
                 <img src="https://ik.imagekit.io/deui/woman-at-cpu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673902737487" alt="person2"></img>
               </div>
               <div className="flex-1 flex items-center">
-                <div className="text-4xl lg:text-3xl font-light text-center lg:text-left w-full flex flex-wrap gap-8">
+                <h3 className="text-4xl lg:text-3xl font-light text-center lg:text-left w-full flex flex-wrap gap-8">
                   What is a Surge protection Plan?
                   <p className="text-[16px] text-[#38454a]">
                     Direct Energy's Surge Protect plans provides up to a total
@@ -60,7 +60,7 @@ const App = () => {
                     Plus, any needed service will be provided by licensed,
                     insured and background-checked Master electricians.
                   </p>
-                </div>
+                </h3>
               </div>
             </div>
             <div className="w-full flex flex-wrap lg:flex-nowrap lg:flex justify-between gap-8 lg:gap-16">

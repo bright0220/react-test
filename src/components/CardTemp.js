@@ -6,9 +6,9 @@ function CardTemp(props) {
   return (
     <Card className="w-full shadow-gray-200 shadow-[1px_1px_2px_2px_rgba(0.5,0.5,0.5,0.5)] text-left p-4 flex flex-wrap gap-4">
       <img className="w-[60px] h-[60px]" src={icon} alt="icon"></img>
-      <p className="w-full text-[22px] font-semibold  ">
+      <h4 className="w-full text-[22px] font-semibold  ">
         Direct Energy ${props.price}-Surge protect
-      </p>
+      </h4>
       <p className="w-full text-[16px] text-[#38454a]">
         • No service call fee, no long term contract, no pre-inspection required
         <br></br>• Up to $1000 in annual coverage<br></br>• Low monthly fee,
